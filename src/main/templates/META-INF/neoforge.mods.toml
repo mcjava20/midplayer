@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://github.com/mcjava20/midplayer"
+logoFile="assets/${mod_id}/logo.png"
+credits='''
+§e感谢使用此mod，欢迎反馈问题或建议。
+§eThanks for using this mod! Feel free to give feedback or suggestions.
+'''
+authors="mcjava20"
+description='''
+§2一款内置MIDI播放器功能的辅助模组。
+§2你可以将MIDI文件导入指定目录，在游戏内交互播放音乐。
+§2功能包含播放、暂停、停止、单曲循环、音量调节。
+§2模组仅客户端运行，联机时服务端无需安装，不会产生存档改动。
+§2适配当前NeoForge版本，兼容原版音频引擎。
+§e§k??????????????????????????????????????????????
+§1A helper mod with a built-in MIDI player feature.
+§1You can import MIDI files into a designated folder and interactively play music in-game.
+§1Features include play, pause, stop, single-track loop, and volume control.
+§1The mod runs only on the client side, so the server doesn’t need to have it installed
+§1and it won’t affect your saved games. Compatible with the current NeoForge version
+§1and works with the original audio engine.
+'''
